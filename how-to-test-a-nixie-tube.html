@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to Test a Nixie Tube - Omnixie | Documentation &amp; Support</title>
+<meta name="description" content="Step-by-step guide on how to test a Nixie tube using a high voltage module like NCH6300HV or NCH8200HV, a multimeter, wires, and an anode resistor.">
+<meta name="keywords" content="test nixie tube, nixie tube testing, NCH6300HV, NCH8200HV, nixie tube guide, high voltage module, anode resistor, Omnixie">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://omnixie.io/how-to-test-a-nixie-tube.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Test a Nixie Tube - Omnixie">
+<meta property="og:description" content="Step-by-step guide on how to test a Nixie tube using a high voltage module, multimeter, and anode resistor.">
+<meta property="og:url" content="https://omnixie.io/how-to-test-a-nixie-tube.html">
+<meta property="og:image" content="https://omnixie.io/assets/img/how_to_test_a_nixie_tube.jpg">
+<meta property="og:site_name" content="Omnixie">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Test a Nixie Tube - Omnixie">
+<meta name="twitter:description" content="Step-by-step guide on how to test a Nixie tube using a high voltage module, multimeter, and anode resistor.">
+<link rel="icon" href="logo-small.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="logo-small.png">
+<link href="styles/omnixie-brand.css" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Test a Nixie Tube",
+  "description": "Step-by-step guide on how to test a Nixie tube using a high voltage module, multimeter, wires, and an anode resistor.",
+  "image": "https://omnixie.io/assets/img/how_to_test_a_nixie_tube.jpg",
+  "author": { "@type": "Organization", "name": "Omnixie" },
+  "publisher": { "@type": "Organization", "name": "Omnixie", "url": "https://omnixie.io" },
+  "url": "https://omnixie.io/how-to-test-a-nixie-tube.html"
+}
+</script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="top-nav" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="top-nav__logo" aria-label="Omnixie home">
+    <img src="assets/img/logo/Omnixie-logo-reverse.png" alt="Omnixie" width="126" height="34">
+  </a>
+  <div class="top-nav__links">
+    <a href="index.html" class="top-nav__link">Products</a>
+    <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer" class="top-nav__link">GitHub</a>
+    <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="top-nav__link">Store</a>
+  </div>
+  <div class="top-nav__actions">
+    <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Shop Now</a>
+    <button class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false" onclick="document.getElementById('mobile-nav').classList.toggle('mobile-nav--open'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='false')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+<div id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+  <a href="index.html">Products</a>
+  <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer">Store</a>
+</div>
+
+<main>
+  <!-- Page Hero -->
+  <section class="product-hero">
+    <div class="page-shell">
+      <img class="product-hero__image" src="assets/img/how_to_test_a_nixie_tube.jpg" alt="How to Test a Nixie Tube" loading="lazy">
+      <h1 class="product-hero__name">How to Test a Nixie Tube</h1>
+      <p class="product-hero__subtitle">A step-by-step guide to testing your Nixie tubes</p>
+    </div>
+  </section>
+
+  <div class="page-shell" style="padding-top: var(--space-8);">
+    <a href="index.html" class="back-nav">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to Products
+    </a>
+
+    <article class="content-card">
+      <h2 class="content-card__title">What you'll need</h2>
+      <div class="content-card__body">
+        <ul>
+          <li>Nixie tubes to be tested</li>
+          <li>A high voltage module, like our <a href="https://omnixie.com/products/nch6300hv-nixie-hv-power-module" target="_blank">NCH6300HV</a> or <a href="https://omnixie.com/products/nch8200hv-nixie-hv-power-module" target="_blank">NCH8200HV</a>.</li>
+          <li>A voltmeter/multimeter. If you don't have it, choose our NCH8200HV as its output is fixed at 170V (dedicated for nixie tubes).</li>
+          <li>Some wires.</li>
+          <li>An anode resistor, usually 20-47K. If you are not sure, start with a larger one.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="page-shell">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <img src="assets/img/logo/Omnixie-logo-reverse.png" alt="Omnixie">
+        <span class="site-footer__tagline">the Light Never Fades</span>
+      </div>
+      <div class="site-footer__links">
+        <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="site-footer__link">Store</a>
+        <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer" class="site-footer__link">GitHub</a>
+      </div>
+    </div>
+    <div class="site-footer__copy">Copyright &copy; 2009-2026 <a href="https://omnixie.com" target="_blank" rel="noopener noreferrer">Omnixie</a>. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

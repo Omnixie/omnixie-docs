@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nixie Tube Driver Board 4 (NTDB4) - Omnixie | Documentation &amp; Support</title>
+<meta name="description" content="Documentation and Arduino library for the Nixie Tube Driver Board 4 (NTDB4). Simplify building your own nixie tube clock with this versatile driver board.">
+<meta name="keywords" content="NTDB4, nixie tube driver board, nixie clock, Arduino nixie, nixie tube, driver board, Omnixie, DIY nixie clock">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://omnixie.io/ntdb4.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Nixie Tube Driver Board 4 (NTDB4) - Omnixie">
+<meta property="og:description" content="Documentation and Arduino library for the Nixie Tube Driver Board 4 (NTDB4). Simplify building your own nixie tube clock.">
+<meta property="og:url" content="https://omnixie.io/ntdb4.html">
+<meta property="og:image" content="https://omnixie.io/assets/products/ntdb4/ntdb4.jpg">
+<meta property="og:site_name" content="Omnixie">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nixie Tube Driver Board 4 (NTDB4) - Omnixie">
+<meta name="twitter:description" content="Documentation and Arduino library for the Nixie Tube Driver Board 4 (NTDB4). Simplify building your own nixie tube clock.">
+<link rel="icon" href="logo-small.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="logo-small.png">
+<link href="styles/omnixie-brand.css" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Nixie Tube Driver Board 4 (NTDB4)",
+  "description": "A driver board that simplifies building nixie tube clocks. Connect an Arduino, NCH6300HV and 4 nixie tubes to get started.",
+  "image": "https://omnixie.io/assets/products/ntdb4/ntdb4.jpg",
+  "brand": { "@type": "Brand", "name": "Omnixie" },
+  "url": "https://omnixie.io/ntdb4.html"
+}
+</script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="top-nav" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="top-nav__logo" aria-label="Omnixie home">
+    <img src="assets/img/logo/Omnixie-logo-reverse.png" alt="Omnixie" width="126" height="34">
+  </a>
+  <div class="top-nav__links">
+    <a href="index.html" class="top-nav__link">Products</a>
+    <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer" class="top-nav__link">GitHub</a>
+    <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="top-nav__link">Store</a>
+  </div>
+  <div class="top-nav__actions">
+    <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">Shop Now</a>
+    <button class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false" onclick="document.getElementById('mobile-nav').classList.toggle('mobile-nav--open'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='false')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+<div id="mobile-nav" class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+  <a href="index.html">Products</a>
+  <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer">Store</a>
+</div>
+
+<main>
+  <!-- Page Hero -->
+  <section class="product-hero">
+    <div class="page-shell">
+      <img class="product-hero__image" src="assets/products/ntdb4/ntdb4.jpg" alt="Nixie Tube Driver Board 4 (NTDB4)" loading="lazy">
+      <h1 class="product-hero__name">Nixie Tube Driver Board 4 (NTDB4)</h1>
+      <p class="product-hero__subtitle">Simplify the making of a Nixie tube clock</p>
+    </div>
+  </section>
+
+  <div class="page-shell" style="padding-top: var(--space-8);">
+    <a href="index.html" class="back-nav">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to Products
+    </a>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Purpose</h2>
+      <div class="content-card__body">
+        <p>The purpose of this Nixie Tube Driver Board is to simplify the making of a Nixie tube clock.</p>
+        <p>Connect an Arduino (or other MCU) board, a NCH6300HV and 4 nixie tubes to the Board, and that's pretty much it. Of course you'll need a few bells and whistles, like buttons, an RTC module, and some wires, but the heavy-lifting work has been done for you, all on the NTDB Board. And we also provide the Arduino example code to get you started. Isn't it easy enough? ^_^</p>
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Dimensions</h2>
+      <div class="content-card__body">
+        <ul>
+          <li>Dimension: 140x30x15mm (L x W x H), or, 5.52x1.18x0.59 inches.</li>
+          <li>15mm is the thickness of the thickest component, the wire header.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Schematics</h2>
+      <div class="content-card__body">
+        <p><a href="assets/products/ntdb4/nixie_tube_driver_board_schematic_v1.0-release.pdf">Schematic in PDF</a></p>
+        <img src="assets/products/ntdb4/nixie_tube_driver_board_schematic_v1.0-release.jpg" alt="NTDB4 Schematic" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Contents</h2>
+      <div class="content-card__body">
+        <p>What the NTDB kit includes:</p>
+        <ul>
+          <li>1x Nixie Tube Driver Board</li>
+          <li>1x Power Switch (Panel-mount)</li>
+          <li>1x Power Socket (Panel-mount), with a split washer and a nut.</li>
+          <li>3x Tactile Buttons (Panel-mount)</li>
+          <li>4x Board-to-Wire for Nixie Tubes (11 conductors, Red for the anode, and Blue for all cathodes)</li>
+          <li>1x Board-to-Wire for colons (3 conductors, Red for the anode, and Blue for 2 colons)</li>
+        </ul>
+        <p>The resistors for anodes are left out intentionally, so that you can use those with proper resistance to match any nixie tubes of your choice. They are through-hole parts so basic soldering skill will suffice to install them.</p>
+        <p>In the connectors for tube connections, the pins are 0.05" spaced apart within each connector. We choose these connectors to keep the board compact.</p>
+        <p>In addition to the panel-mount parts in the kit, there is already a switch and a power socket on board in fact. We thought you may like to make an enclosure to your own needs for your project, so we added the panel-mount ones in the kit, so that you can use them on your enclosure and hook them up using some wires. This way your project will look more like a finished product, doesn't it? ^_^</p>
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Arduino Library on GitHub</h2>
+      <div class="content-card__body">
+        <p>The Arduino library for the Nixie Tube Driver Board (NTDB4) was released on GitHub.</p>
+        <p><a href="https://github.com/omnixie-electronics/Nixie-Tube-Driver-Board-Arduino-Library">Click Here</a></p>
+        <p>This Arduino library is designed to help you make your own nixie tube clocks with ease.</p>
+        <p>More tubes can be driven when multiple NTDB boards are connected in series.</p>
+        <p>The library provides two example projects for you to get started.</p>
+        <p>1) A minimal 4-Nixie-tube display.</p>
+        <p>2) A complete clock using 4 nixie tubes, 3 tactile buttons and 2 colon bulbs. See the chart below.</p>
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Flow Chart of the 4-Nixie-Tube Clock</h2>
+      <div class="content-card__body">
+        <img src="assets/products/ntdb4/ntdb_arduino_example_code_v1.jpg" alt="NTDB4 Arduino example flow chart" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">How to use the Arduino library</h2>
+      <div class="content-card__body">
+        <p>The code for a nixie clock involves 5 steps:</p>
+        <ol>
+          <li>Include our Omnixie_NTDB.h Arduino library</li>
+          <li>Tell the code which pins are used.</li>
+          <li>Turn on the 170V power, provided by NCH6300HV</li>
+          <li>Specify what number for the tubes to display.</li>
+          <li>Viola! It just works!</li>
+        </ol>
+        <p>You may choose to flash the colons to make the clock complete, as shown in the image above.</p>
+        <p>Each board can drive 4 nixie tubes, two will drive 8 tubes, and so on. Since they are in series, they only take 4 I/Os on your Arduino board. So if you need to drive more tubes, simply add more NTDB boards in series.</p>
+        <img src="assets/products/ntdb4/arduino_example.png" alt="Arduino example code screenshot" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Example Project 1: Minimal Tube Display</h2>
+      <div class="content-card__body">
+        <h3>Step 1: Include the Omnixie_NTDB.h library</h3>
+<pre>#include &lt;Omnixie_NTDB.h&gt;</pre>
+        <h3>Step 2: define how many NTDB boards in use</h3>
+<pre>#define NTDB_count  1</pre>
+        <h3>Step 3:</h3>
+<pre>Omnixie_NTDB nixieClock(11, 8, 12, 10, 6, 5, NTDB_count);
+// pin_DataIN, pin_STCP(latch), pin_SHCP(clock), pin_Blank(Output Enable; PWM pin preferred),
+// HVEnable pin, Colon pin, number of Nixie Tube Driver Boards
+// PWM Pins on Arduino Uno: 3, 5, 6, 9, 10, 11; PWM FREQUENCY 490 Hz (pins 5 and 6: 980 Hz)</pre>
+        <h3>Step 4:</h3>
+<pre>//turn on the high voltage provided by NCH6300HV
+  nixieClock.setHVPower(true);
+
+  // Brightness control, range 0x00(off) to 0xff(brightest).
+  nixieClock.setBrightness(0xff);
+  //turn on the tube display
+  nixieClock.display();
+Step 5:
+
+for (int n = 0; n &lt; 9999; n++) {
+    //Specify what number to display, and which tubes to display
+    nixieClock.setNumber(n, 0b1111);
+    //Light up the tubes
+    nixieClock.display();
+    delay(10);
+}</pre>
+        <h3>Here is the complete project.</h3>
+<pre>/*
+  Nixie Tube Driver Board (NTDB) 4-Nixie Tube Display Minimal Example
+
+  This example demonstrates a minimal display using 4 nixie tubes.
+  No colon bulbs. No buttons/controls. No clock.
+  See aother example we provided for a complete clock.
+
+  In order to make a complete clock, you will need:
+  1) This KIT: https://nixie.ai/ntdb4
+  2) 4x nixie tubes
+  3) 1x NCH6300HV: https://nixie.ai/nch6300hv
+  4) 1x Arduino Uno board
+  5) 1x Real Time Clock module (DS1307, DS3231, etc)
+  6) Some jumper wires
+
+
+  Circuit:
+  Connect the NTDB to Arduino Uno:
+  --------------------------------
+    NTDB        Arduino Pins
+  --------------------------------
+    GND         GND
+    DC5V
+    DATA        11
+    OE          10
+    STCP        8
+    SHCP        12
+    COLON       5 (Not In Use)
+    ON/OFF      6 (HVEnable)
+  --------------------------------
+  Connect the 12V DC power to the NTDB board
+
+
+  Nixie Tube Driver Board (NTDB) Arduino Library released at
+  https://github.com/omnixie-electronics/Nixie-Tube-Driver-Board-Arduino-Library
+  with short link: https://nixie.ai/ntdb4github
+
+  First released in public domain on Thanksgiving day, 11/26/2020
+  Library and example code created
+  by Aiden Fang
+  www.Omnixie.com
+
+  NTDB board designed by Zeyuan, Yan
+  www.Omnixie.cn
+
+*/
+
+#include &lt;Omnixie_NTDB.h&gt;
+
+
+#define NTDB_count  1
+// define how many NTDB boards in use
+
+Omnixie_NTDB nixieClock(11, 8, 12, 10, 6, 5, NTDB_count);
+// pin_DataIN, pin_STCP(latch), pin_SHCP(clock), pin_Blank(Output Enable; PWM pin preferred),
+// HVEnable pin, Colon pin, number of Nixie Tube Driver Boards
+// PWM Pins on Arduino Uno: 3, 5, 6, 9, 10, 11; PWM FREQUENCY 490 Hz (pins 5 and 6: 980 Hz)
+
+void setup()
+{
+  //turn on the high voltage provided by NCH6300HV
+  nixieClock.setHVPower(true);
+
+  // Brightness control, range 0x00(off) to 0xff(brightest).
+  nixieClock.setBrightness(0xff);
+  //turn on the tube display
+  nixieClock.display();
+
+  //quickly loop through all digits to prevent cathode poisoning
+  CathodePoisoningPrevention(3, 100);
+
+}
+
+void loop()
+{
+  for (int n = 0; n &lt; 9999; n++) {
+    //Specify what number to display, and which tubes to display
+    nixieClock.setNumber(n, 0b1111);
+    //Light up the tubes
+    nixieClock.display();
+    delay(10);
+  }
+}
+
+void CathodePoisoningPrevention(unsigned int num, int msDelay) {
+  if (num &lt; 1) exit;
+  for (byte n = 0; n &lt; num; n++) {
+    Serial.println("Running Cathode Poisoning Prevention ... ");
+    for (byte i = 0; i &lt; 10; i++) {
+      nixieClock.setNumber(i * 1111, 0b1111);
+      nixieClock.display();
+      delay(msDelay);
+    }
+  }
+  delay(1000);
+}</pre>
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Photos</h2>
+      <div class="content-card__body">
+        <img src="assets/products/ntdb4/af4_1716-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1695-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1657-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1689-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1688-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1647-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1653-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1718-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1664-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1658-680.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1676-ps.jpg" alt="NTDB4 photo" loading="lazy">
+        <img src="assets/products/ntdb4/af4_1686-680.jpg" alt="NTDB4 photo" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Prototype</h2>
+      <div class="content-card__body">
+        <img src="assets/products/ntdb4/ntdb4-clock-prototype1.jpg" alt="NTDB4 clock prototype 1" loading="lazy">
+        <img src="assets/products/ntdb4/ntdb4-clock-prototype2.jpg" alt="NTDB4 clock prototype 2" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Example: Connection Scheme of TWO NTDB4 boards for (up to) 8 Nixie tubes</h2>
+      <div class="content-card__body">
+        <p>If you need to drive more than 4 nixie tubes, say, 6, you will need two NTDB4 boards.<br>Here is an example of how to connect two NTDB4 boards to make a nixie clock with up to 8 nixie tubes.</p>
+        <p>Components used in the scheme below:</p>
+        <ul>
+          <li><a href="https://omnixie.com/products/nixie-tube-driver-board-ntdb-kit-for-4-nixie-tubes" target="_blank">NTDB4 kits</a> x2</li>
+          <li><a href="https://omnixie.com/products/nch6300hv-nixie-hv-power-module" target="_blank">NCH6300HV</a> (or <a href="https://omnixie.com/products/nch8200hv-nixie-hv-power-module" target="_blank">NCH8200HV</a>) high voltage power supply</li>
+          <li><a href="https://omnixie.com/products/12v-1a-dc-power-adapter-fc-ul-listed-dc5-5-2-1" target="_blank">12V power supply</a></li>
+          <li>Arduino of your choice</li>
+          <li>RTC module of your choice</li>
+          <li>colon tubes if you choose to use them</li>
+          <li>nixie tubes of your choice</li>
+          <li>current limiting resistors for anodes of your nixie tubes</li>
+          <li>wires of your choice</li>
+        </ul>
+        <img src="assets/products/ntdb4/daisy-chain.jpg" alt="Daisy chain connection scheme for two NTDB4 boards" loading="lazy">
+      </div>
+    </article>
+
+    <article class="content-card">
+      <h2 class="content-card__title">Beyond Nixie Clocks</h2>
+      <div class="content-card__body">
+        <p>Clock is merely an example. You can show numbers like stock prices, bitcoin prices, room temperature, game scores, YouTube subscribers, and on and on. With the combination of Arduino (or your own MCU), the possibility is unlimited. You can now add nixie display to any projects to show numbers!</p>
+        <p>We cannot wait to see what YOU can make with it.</p>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="page-shell">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <img src="assets/img/logo/Omnixie-logo-reverse.png" alt="Omnixie">
+        <span class="site-footer__tagline">the Light Never Fades</span>
+      </div>
+      <div class="site-footer__links">
+        <a href="https://www.omnixie.com" target="_blank" rel="noopener noreferrer" class="site-footer__link">Store</a>
+        <a href="https://github.com/omnixie/" target="_blank" rel="noopener noreferrer" class="site-footer__link">GitHub</a>
+      </div>
+    </div>
+    <div class="site-footer__copy">Copyright &copy; 2009-2026 <a href="https://omnixie.com" target="_blank" rel="noopener noreferrer">Omnixie</a>. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
